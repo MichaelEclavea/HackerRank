@@ -14,11 +14,11 @@ function sherlockAndAnagrams(s) {
   console.log(map)
   let result = 0
   for (const key in map) {
-    console.log('map key', map[key])
+    console.log('map key', map[key]);
     if (map[key] > 1) {
-      result += (map[key] * (map[key] - 1)) / 2
+      result += (map[key] * (map[key] - 1)) / 2;
     }
   }
-  return result
+  return result;
 }
 
